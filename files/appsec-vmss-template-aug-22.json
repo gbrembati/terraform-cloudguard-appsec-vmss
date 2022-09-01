@@ -192,7 +192,7 @@
         },
         "_artifactsLocation": {
             "type": "string",
-            "defaultValue": "[deployment().properties.templateLink.uri]",
+            "defaultValue": "https://raw.githubusercontent.com/CheckPointSW/CloudGuardIaaS/master/azure/templates/",
             "metadata": {
                 "description": "The base URI where artifacts required by this template are located including a trailing '/'"
             }
